@@ -13,7 +13,7 @@ function res = get_unit_vector(uv_ax,frame)
   
   syms pp 
   
-  switch rot_axis
+  switch uv_ax
     case 'X'
        pp  = frame(1:3,1);  
     case 'Y'
